@@ -97,6 +97,11 @@ footer.page-footer {
  * Responsivo
  **/
  @media only screen and (max-width: 381px) {
+
+   .dots{
+       display: none;
+   }
+
     nav .brand-logo{
         font-size: 1.5rem;
     }
@@ -117,9 +122,12 @@ footer.page-footer {
 
     .parallax-container .section {
         position: absolute;
-        top: 4rem;
+        top: 8rem;
     }
 
+    p{
+        padding: 4px;
+    }
 }
 
 @media only screen and (max-width: 241px) {
@@ -140,10 +148,6 @@ footer.page-footer {
         position: absolute;
         top: 3rem;
     }
-
-  .dots{
-      display: none;
-  }
 
   .countdown{
       margin-top: 2rem;
