@@ -74,10 +74,6 @@ footer.page-footer {
 .shadow {
   text-shadow: 4px 3px 5px #000;
 }
-
-.myTextSize {
-  font-size: 50px;
-}
 .teal {
   background-color: black !important;
 }
@@ -96,18 +92,10 @@ footer.page-footer {
 /**
  * Responsivo
  **/
- @media only screen and (max-width: 381px) {
-
-   .dots{
-       display: none;
-   }
-
-    nav .brand-logo{
-        font-size: 1.5rem;
-    }
+ @media only screen and (max-width: 769px) {
 
     .dots, .days, .hours, .minutes, .seconds{
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     .countdown{
@@ -117,17 +105,43 @@ footer.page-footer {
     .timer{
         width: auto;
         padding: 2px;
+        font-size: 3rem;
+    }
+
+ }
+
+@media only screen and (max-width: 481px) {
+
+  .dots{
+      display: none;
+  }
+
+   nav .brand-logo{
+       font-size: 1.5rem;
+   }
+
+   .dots, .days, .hours, .minutes, .seconds{
+       font-size: 4rem;
+   }
+
+   .countdown{
+       margin-top: 4rem;
+   }
+
+   .timer{
+        width: 23%;
+        padding: 2px;
         font-size: 2rem;
-    }
+   }
 
-    .parallax-container .section {
-        position: absolute;
-        top: 8rem;
-    }
+   .parallax-container .section {
+       position: absolute;
+       top: 8rem;
+   }
 
-    p{
-        padding: 4px;
-    }
+   p{
+       padding: 4px;
+   }
 }
 
 @media only screen and (max-width: 241px) {
