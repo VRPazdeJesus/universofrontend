@@ -92,3 +92,66 @@ footer.page-footer {
 .countdown{
     margin-top: 6rem;
 }
+
+/**
+ * Responsivo
+ **/
+ @media only screen and (max-width: 381px) {
+    nav .brand-logo{
+        font-size: 1.5rem;
+    }
+
+    .dots, .days, .hours, .minutes, .seconds{
+        font-size: 4rem;
+    }
+
+    .countdown{
+        margin-top: 4rem;
+    }
+
+    .timer{
+        width: auto;
+        padding: 2px;
+        font-size: 2rem;
+    }
+
+    .parallax-container .section {
+        position: absolute;
+        top: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 241px) {
+   nav .brand-logo{
+       font-size: 1rem;
+   }
+
+  .dots, .days, .hours, .minutes, .seconds{
+      font-size: 3.5rem;
+  }
+
+    .container .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .parallax-container .section {
+        position: absolute;
+        top: 3rem;
+    }
+
+  .dots{
+      display: none;
+  }
+
+  .countdown{
+      margin-top: 2rem;
+  }
+
+  .timer{
+      width: auto;
+      padding: 2px;
+      font-size: 2rem;
+  }
+}
