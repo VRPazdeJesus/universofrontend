@@ -61,11 +61,11 @@ footer.page-footer {
   font-size: 50px;
   display:inline-block;
   text-align:center;
-  margin-top: 20%;
+  /*margin-top: 20%;*/
 }
 
 .dots, .days, .hours, .minutes, .seconds {
-  font-size: 150px;
+  font-size: 8.7rem;
   color: #ecf0f1;
   text-shadow: 7px 7px 15px #000;
   opacity: 1;
@@ -84,6 +84,11 @@ footer.page-footer {
 .text-red {
   color: red;
 }
-.justify {
+
+.justify-align {
   text-align: justify;
+}
+
+.countdown{
+    margin-top: 6rem;
 }
