@@ -19,6 +19,10 @@ p {
   line-height: 2rem;
 }
 
+#modulos ul li {
+	list-style: initial;
+}
+
 .button-collapse {
   color: #26a69a;
 }
@@ -53,6 +57,31 @@ p {
 #index-banner .saiyan-sans {
   font-size: 5.8rem;
   color: white;
+}
+
+.guerreiros-z-bg {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+}
+
+.goku {
+  background-image: url(../img/goku3.png);
+}
+
+.piccolo {
+  background-image: url(../img/piccolo.png);
+}
+
+.kuririn {
+  background-image: url(../img/kuririn.png);
+}
+
+#conteudo .saiyan-sans, #modulos .saiyan-sans {
+  letter-spacing: 8px;
+  font-size: 6rem;
 }
 
 @media only screen and (max-width : 992px) {
@@ -200,4 +229,19 @@ footer.page-footer {
       padding: 2px;
       font-size: 2rem;
   }
+}
+
+.orange, .orange-text {
+  color: #f29921 !important;
+}
+
+.btn-dbz {
+  color: #f29921;
+  background-color: white;
+  margin: 10px 0 50px;
+}
+
+.btn-dbz:hover {
+  color: white;
+  background-color: #f29921;
 }
