@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
 }
 
 p {
@@ -28,6 +28,10 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+.saiyan-sans {
+  font-family: 'saiyan_sansregular';
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
