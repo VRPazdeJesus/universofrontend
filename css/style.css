@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+html, body {
+  height: 100%;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #fff;
@@ -33,18 +37,38 @@ p {
   font-family: 'saiyan_sansregular';
 }
 
+#index-banner {
+  height: 100%;
+  min-height: 320px;
+}
+
+#index-banner .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+#index-banner .saiyan-sans {
+  font-size: 5.8rem;
+  color: white;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
-  #index-banner .section {
+  #count-banner .section {
     top: 10%;
   }
+
+  
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
+  #count-banner .section {
     top: 0;
   }
 }
