@@ -249,3 +249,7 @@ footer.page-footer {
   color: white;
   background-color: #f29921;
 }
+
+.footer-copyright .container{
+    line-height: 100%;
+}
