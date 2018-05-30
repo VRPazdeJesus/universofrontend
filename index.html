@@ -1,86 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Curso Universo Front-end para o Mercado</title>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/saiyan-sans.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curso UNIVERSO Fron-end! Usando tecnologias atuais, focadas no mercado de trabalho!">
+    <meta name="author" content="Víctor Romário Paz de Jesus">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
-  <link rel="manifest" href="img/icons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <title>Universo Front-end</title>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    ga('create', 'UA-80126739-3', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <link rel="manifest" href="img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-80126739-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
-  <div id="count-banner" class="parallax-container">
-    <div class="container row">
-      <h1 class="shadow">Faltam</h1>
-      <ul class="countdown">
-        <li class="timer">
-      	<span class="days"></span>
-      	<span class="dots"></span>
-      	<p class="timeRefDays shadow"></p>
-        </li>
-        <li class="timer">
-      	<span class="hours"></span>
-      	<span class="dots"></span>
-      	<p class="timeRefHours shadow"></p>
-        </li>
-        <li class="timer">
-      	<span class="minutes"></span>
-      	<span class="dots"></span>
-      	<p class="timeRefMinutes shadow"></p>
-        </li>
-        <li class="timer">
-      	<span class="seconds"></span>
-      	<p class="timeRefSeconds shadow"></p>
-        </li>
-      </ul>
-      <div class="col-sm-6">
-        <a target="_blank" href="https://www.eventbrite.com.br/e/curso-de-desenvolvimento-front-end-para-o-mercado-pela-manha-tickets-46450975117" class="btn-large btn-dbz">Turma Manhã</a>
-      </div>
-      <div class="col-sm-6">
-        <a target="_blank" href="https://www.eventbrite.com.br/e/curso-de-desenvolvimento-front-end-para-o-mercado-pela-tarde-tickets-46451155657" class="btn-large btn-dbz">Turma Tarde</a>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/newera.jpg"></div>
 
+<body id="page-top">
 
-  </div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">Universo Front-end</a>
+          </div>
 
-  <script src="js/jquery.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/contador.js"></script>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a class="page-scroll" href="#viagem">Sobre</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#turmas">Turmas</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contato">Contato</a>
+                  </li>
+              </ul>
+          </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-  </body>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading" class="shadow">Universo Front-end</h1>
+                <p class="shadow">Usando tecnologias atuais</br> Focadas no mercado de trabalho!</p>
+            </div>
+            <div class="container countdown row">
+              <div class="col-sm-3">
+                <span class="days"></span>
+              	<span class="dots"></span>
+              	<p class="timeRefDays shadow"></p>
+              </div>
+              <div class="col-sm-3">
+                <span class="hours"></span>
+              	<span class="dots"></span>
+              	<p class="timeRefHours shadow"></p>
+              </div>
+              <div class="col-sm-3">
+                <span class="minutes"></span>
+              	<span class="dots"></span>
+              	<p class="timeRefMinutes shadow"></p>
+              </div>
+              <div class="col-sm-3">
+                <span class="seconds"></span>
+              	<p class="timeRefSeconds shadow"></p>
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="viagem">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">SOBRE O CURSO</h2>
+                    <hr class="light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-file-code-o text-primary sr-icons"></i>
+                        <h3>Vários projetos práticos!</h3>
+                        <p class="text-muted">Criaremos sites funcionais usando boas práticas! Trabalharemos com GIT, tornaremos nossa página responsivas e iremos publicá-las na web!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-clock-o text-primary sr-icons"></i>
+                        <h3>20 Horas de Carga Horária</h3>
+                        <p class="text-muted">5 dias de curso!</br> Com certificado!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-calendar text-primary sr-icons"></i>
+                        <h3>Turmas pela semana e aos Sabados</h3>
+                        <p class="text-muted">Turmas pela manhã e pela tarde</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-usd text-primary sr-icons"></i>
+                        <h3>Investimento: R$ 100</h3>
+                        <p class="text-muted">Que pode ser pago via boleto, cartão de crédito ou tranferência bancária.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-back" id="turmas">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <h2 class="section-heading text-white">Turmas</h2>
+                  <hr class="light">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="service-box">
+                    <ul class="list-group">
+                      <li class="list-group-item black">Turma 1: Dia de Semana</li>
+                      <li class="list-group-item">09/07 - 10/07 - 11/07 - 12/07 - 13/07</li>
+                      <li class="list-group-item">13:00 - 17:00</li>
+                      <li class="list-group-item">UNIFACS PA6 - Rio Vermelho</li>
+                      <li class="list-group-item"><a href="https://www.eventbrite.com.br/e/curso-de-desenvolvimento-front-end-para-o-mercado-semana-tarde-tickets-46587636876" target="_blank" class="page-scroll btn btn-dark-blue btn-xl sr-button">Participar</a></li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="service-box">
+                    <ul class="list-group">
+                      <li class="list-group-item black">Turma 2: Dia de Semana</li>
+                      <li class="list-group-item">23/07 - 24/07 - 25/07 - 26/07 - 27/07</li>
+                      <li class="list-group-item">13:00 - 17:00</li>
+                      <li class="list-group-item">UNIFACS Prof. Barros - Paralela</li>
+                      <li class="list-group-item"><a href="https://www.eventbrite.com.br/e/curso-de-desenvolvimento-front-end-para-o-mercado-semana-tarde-tickets-46588175487" target="_blank" class="page-scroll btn btn-dark-blue btn-xl sr-button">Participar</a></li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="service-box">
+                    <ul class="list-group">
+                      <li class="list-group-item black">Turma 3: Dias de Sábado</li>
+                      <li class="list-group-item">21/07 - 28/07 - 04/08 - 11/08 - 18/08</li>
+                      <li class="list-group-item">08:00 - 12:00</li>
+                      <li class="list-group-item">UNIFACS PA6 - Rio Vermelho</li>
+                      <li class="list-group-item"><a href="https://www.eventbrite.com.br/e/curso-de-desenvolvimento-front-end-para-o-mercado-sabado-manha-tickets-46450975117" target="_blank" class="page-scroll btn btn-dark-blue btn-xl sr-button">Participar</a></li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="service-box">
+                    <ul class="list-group">
+                      <li class="list-group-item black">Turma 4: Dias de Sábado</li>
+                      <li class="list-group-item">21/07 - 28/07 - 04/08 - 11/08 - 18/08</li>
+                      <li class="list-group-item">13:00 - 17:00</li>
+                      <li class="list-group-item">UNIFACS Prof. Barros - Paralela</li>
+                      <li class="list-group-item"><a href="https://www.eventbrite.com.br/e/curso-de-desenvolvimento-front-end-para-o-mercado-sabado-tarde-tickets-46451155657" target="_blank" class="page-scroll btn btn-dark-blue btn-xl sr-button">Participar</a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contato</h2>
+                    <hr class="primary">
+                    <p>Este curso é uma realização do Ramo IEEE UNIFACS, com o instrutor Víctor Romário e o apoio da UNIFACS</p>
+                    <i class="fa fa-facebook-square fa-3x sr-contact"></i>
+                    <p>facebook.com/ieeeunifacs</p>
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p>sb.unifacs@ieee.org</p>
+                    <img src="img/ieee.png" class="img-rounded img-responsive sr-contact avatar img-center" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+    <script src="js/contador.js"></script>
+
+</body>
+
 </html>

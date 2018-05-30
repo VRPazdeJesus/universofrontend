@@ -1,255 +1,130 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-html, body {
-  height: 100%;
-}
-
-nav ul a,
-nav .brand-logo {
-  color: #fff;
-}
-
-p {
-  line-height: 2rem;
-}
-
-#modulos ul li {
-	list-style: initial;
-}
-
-.button-collapse {
-  color: #2A3A55;
-}
-
-.parallax-container {
-  min-height: 320px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-.saiyan-sans {
-  font-family: 'saiyan_sansregular';
-}
-
-#index-banner, #count-banner {
-  height: 100%;
-  min-height: 320px;
-}
-
-#index-banner .container, #count-banner .container {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
-}
-
-#index-banner .saiyan-sans {
-  font-size: 5.8rem;
-  color: white;
-}
-
-.guerreiros-z-bg {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 280px;
-}
-
-.goku {
-  background-image: url(../img/goku3.png);
-}
-
-.piccolo {
-  background-image: url(../img/piccolo.png);
-}
-
-.kuririn {
-  background-image: url(../img/kuririn.png);
-}
-
-#conteudo .saiyan-sans, #modulos .saiyan-sans {
-  letter-spacing: 8px;
-  font-size: 6rem;
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .saiyan-sans {
-	font-size: 5rem;
-  }
-}
-
-@media only screen and (max-width : 480px) {
-  #index-banner .saiyan-sans {
-	font-size: 4rem;
-  }
-  #index-banner h3 {
-	font-size: 2.5rem;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-.timer {
-  width:24.4333%;
-  font-size: 50px;
-  display:inline-block;
-  text-align:center;
-  /*margin-top: 20%;*/
-}
-
-.dots, .days, .hours, .minutes, .seconds {
-  font-size: 8.7rem;
-  color: #ecf0f1;
-  text-shadow: 7px 7px 15px #000;
-  opacity: 1;
-}
-
 .shadow {
-  text-shadow: 4px 3px 5px #000;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
-.teal {
-  background-color: black !important;
+.text-primary {
+  color: #00af85;
 }
-.text-red {
-  color: red;
+.btn-primary {
+  color: white;
+  background-color: #00af85;
+  border-color: #00af85;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
-
-.justify-align {
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #00af85;
+  border-color: #00af85;
+}
+.btn-primary .badge {
+  color: #00af85;
+  background-color: white;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #00af85;
+}
+.bg-primary {
+  background-color: #17101d;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #00af85;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #00af85 !important;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #00af85;
+    font-size: 14px;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #00af85;
+  }
+}
+hr {
+  border-color: #00af85;
+  border-width: 3px;
+  max-width: 50px;
+}
+.text-align-left {
   text-align: justify;
 }
-
-.countdown{
-    margin-top: 6rem;
+.bg-back {
+  background-color: #00C89C;
 }
-
-/**
- * Responsivo
- **/
- @media only screen and (max-width: 769px) {
-
-    .dots, .days, .hours, .minutes, .seconds{
-        font-size: 6rem;
-    }
-
-    .countdown{
-        margin-top: 4rem;
-    }
-
-    .timer{
-        width: auto;
-        padding: 2px;
-        font-size: 3rem;
-    }
-
- }
-
-@media only screen and (max-width: 481px) {
-
-  .dots{
-      display: none;
-  }
-
-   nav .brand-logo{
-       font-size: 1.5rem;
-   }
-
-   .dots, .days, .hours, .minutes, .seconds{
-       font-size: 4rem;
-   }
-
-   .countdown{
-       margin-top: 4rem;
-   }
-
-   .timer{
-        width: 23%;
-        padding: 2px;
-        font-size: 2rem;
-   }
-
-   .parallax-container .section {
-       position: absolute;
-       top: 8rem;
-   }
-
-   p{
-       padding: 4px;
-   }
-}
-
-@media only screen and (max-width: 241px) {
-   nav .brand-logo{
-       font-size: 1rem;
-   }
-
-  .dots, .days, .hours, .minutes, .seconds{
-      font-size: 3.5rem;
-  }
-
-    .container .row {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .parallax-container .section {
-        position: absolute;
-        top: 3rem;
-    }
-
-  .countdown{
-      margin-top: 2rem;
-  }
-
-  .timer{
-      width: auto;
-      padding: 2px;
-      font-size: 2rem;
-  }
-}
-
-.orange, .orange-text {
-  color: #f29921 !important;
-}
-
-.btn-dbz {
-  color: #2a3a55;
-  background-color: white;
-  margin: 10px 0 50px;
-}
-
-.btn-dbz:hover {
+.text-white {
   color: white;
-  background-color: #2a3a55;
 }
-
-.footer-copyright .container{
-    line-height: 100%;
+.btn-dark-blue {
+    color: white;
+    background-color: #1f1323;
+}
+.black {
+  z-index: 2;
+  color: #fff;
+  background-color: #1F1323;
+  border-color: #1F1323;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.avatar {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dots, .days, .hours, .minutes, .seconds {
+    font-size: 6.7rem;
+    color: #ecf0f1;
+    text-shadow: 7px 7px 15px #000;
+    opacity: 1;
 }
