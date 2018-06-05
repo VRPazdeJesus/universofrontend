@@ -43,8 +43,8 @@ var interval;
         //conditional Ss
         if (days == 1) { thisEl.find(".timeRefDays").text("Dias"); } else { thisEl.find(".timeRefDays").text("Dias"); }
         if (hours == 1) { thisEl.find(".timeRefHours").text("Horas"); } else { thisEl.find(".timeRefHours").text("Horas"); }
-        if (minutes == 1) { thisEl.find(".timeRefMinutes").text("Min"); } else { thisEl.find(".timeRefMinutes").text("Min"); }
-        if (seconds == 1) { thisEl.find(".timeRefSeconds").text("Seg"); } else { thisEl.find(".timeRefSeconds").text("Seg"); }
+        if (minutes == 1) { thisEl.find(".timeRefMinutes").text("Min"); } else { thisEl.find(".timeRefMinutes").text("Minutos"); }
+        if (seconds == 1) { thisEl.find(".timeRefSeconds").text("Seg"); } else { thisEl.find(".timeRefSeconds").text("Segundos"); }
 
         //logic for the two_digits ON setting
         if(settings['format'] == "on") {
