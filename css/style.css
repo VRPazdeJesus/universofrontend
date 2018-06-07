@@ -128,3 +128,6 @@ hr {
     text-shadow: 7px 7px 15px #000;
     opacity: 1;
 }
+.img-circle {
+    border-radius: 5%;
+}
