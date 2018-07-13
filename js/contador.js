@@ -65,7 +65,9 @@ var interval;
           clearInterval(interval);
         }
       }
-
+       $('.carousel').carousel({
+       interval: 1000
+       })
       //run the function
       countdown_proc();
 
