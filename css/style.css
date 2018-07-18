@@ -97,6 +97,10 @@ hr {
     color: white;
     background-color: #1f1323;
 }
+.btn-my-green {
+  color: #1f1323;
+  background-color: #00C89C;
+}
 .black {
   z-index: 2;
   color: #fff;
